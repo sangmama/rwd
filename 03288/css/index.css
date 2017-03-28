@@ -1,0 +1,214 @@
+body{font-family: "微软雅黑"," Microsoft YaHei", arial,SimSun; font-size: 24px; color: #888; overflow-x: hidden;}
+/*header*/
+#header{width: 100%; height: 136px; border-top: 3px solid #909398;}
+#header .heaerInner{width: 1152px; margin: 0 auto;}
+#header .heaerInner .logo{ float: left; margin-right: 20px; margin-top:30px; vertical-align: middle;}
+#header .heaerInner .nav{ float: right;}
+#header .heaerInner .nav li{ float: left; margin: 72px 20px 0;}
+#header .heaerInner .nav li a{ color: #888; display: block;}
+#header .heaerInner .nav li a.active,#header .heaerInner .nav li a:hover{color: #000; border-bottom: 4px solid #fcd54f;}
+#banner{width: 100%;}
+#banner .imgPc{ display: block;}
+#banner .imgM{ display: none;}
+/*indexbanner*/
+#indexbanner{ position: relative; z-index: 2; width: 100%; margin: 0 auto; overflow: hidden;}
+#indexbanner .spBox{ width: 6000px;}
+#indexbanner .spBox li{ float: left; position: relative; overflow: hidden;}
+#indexbanner .spBox li a{ display: block; width: 100%; overflow: hidden;}
+#indexbanner .spBox li a img{ display: block; width: auto; height: 428px;}
+#indexbanner .btmBtn{ position: absolute; z-index: 2;  bottom: 23px; left:0; width:100%; margin:0; text-align:center;}
+#indexbanner .btmBtn span{ display: inline-block; width:12px; height:12px; margin:0 8px; overflow:hidden; font-size:0; line-height:0; background:#959595;
+-webkit-border-radius:50%; -moz-border-radius:50%; -ms-border-radius:50%; -o-border-radius:50%; border-radius:50%; cursor: pointer; -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.3);-moz-box-shadow: 0 1px 1px rgba(0,0,0,0.3);box-shadow: 0 1px 1px rgba(0,0,0,0.3);}
+#indexbanner .btmBtn span.active{width:12px; background:#FFF;}
+#indexbanner .btmBtn span img{ display: inline-block; width: 100px; vertical-align: bottom;}
+#indexbanner .leftBtn{ position: absolute; left: 15%; top: 50%; z-index: 2; width: 53px; margin-top: -30px;}
+#indexbanner .rightBtn{ position: absolute; right: 15%; top: 50%; z-index: 2; width: 53px; margin-top: -30px;}
+#indexbanner .ctrBtns img{display: block; width: 100%;}
+
+
+#category{width: 100%; height: 602px; background:#fbc523 url(../images/bg-cat.jpg) center no-repeat; color: #fff; font-size: 14px; overflow: hidden;}
+#category .categoryInner{width: 1152px; margin: 0 auto; padding: 22px 0;height: 558px;}
+#category .categoryInner div{ float: left; height: 100%;}
+#category .categoryInner div.categoryL{ background: #c87711; width: 480px; overflow: hidden;}
+#category .categoryInner div.categoryM{ position: relative; width: 318px;}
+#category .categoryInner div.categoryM .txtM{ position: absolute; top: 35px; left:125px; z-index: 1; color: #747474;}
+#category .categoryInner div.categoryM .txtM span{ text-align:center; font-size: 20px; color: #fb8720;}
+#category .categoryInner div.categoryR{ background: #d1515f; width: 354px;}
+#category .categoryInner .txtL{ padding: 10px 30px 0;}
+#category .categoryInner .txtR{ padding: 12px 0 0 30px;}
+#category .categoryInner .txtR span{ font-size: 25px;}
+.font58{font-size: 58px;}
+.font24{font-size:24px;}
+#classList{width: 100%; height: 558px; background:#fff url(../images/bg-class.jpg) center no-repeat; color: #888; font-size: 14px; overflow: hidden;}
+#classList .classListInner{ width:1152px; margin: 0 auto; height: 100%; padding-top: 20px;}
+#classList .classListInner .eleQin,#classList .classListInner .eleQi,#classList .classListInner .eleShu,#classList .classListInner .eleHua{float:left;width: 48%; height: 50%;}
+#classList .classListInner .eleQin h3{ color: #4b73c3; font-size: 24px;}
+#classList .classListInner .eleQi h3{color: #0ec228; font-size: 24px;}
+#classList .classListInner .eleShu h3{color: #e97100; font-size: 24px;}
+#classList .classListInner .eleHua h3{color: #e0495c; font-size: 24px;}
+#classList .classListInner .eleQin { margin-right:2%; }
+#classList .classListInner .eleQi {}
+#classList .classListInner .eleShu {margin-right:2%; }
+#classList .classListInner .eleHua {}
+#classList .imgL,#classList .eleL{float: left;}
+#classList .eleR,#classList .imgR{ float: right;}
+#classList .imgL,#classList .imgR{ width: 48%;}
+#classList .imgL img,#classList .imgR img{ width: 100%;}
+#classList .eleR,#classList .eleL{width: 50%;}
+#honer{width: 100%;background: #fbca23;}
+#honer .honerInner{width: 1152px; margin: 0 auto;}
+#honer .honerInner .hInTop{ padding-top: 45px; margin-bottom: 15px;}
+#honer .honerInner .hInTop .hInTopL{ float: left; width: 60%;}
+#honer .honerInner .hInTop h3{color: #714d29; font-size: 65px; margin-bottom: 15px;}
+#honer .honerInner .hInTop p{ color: #FFFFFF; font-size: 22px; line-height: 40px;}
+#honer .honerInner .hInTop .hInTopR{ float: right; width: 35%}
+#honer .honerInner ul{}
+#honer .honerInner ul li{ position: relative; float: left;width: 16%; text-align: center;  height: 240px; overflow: hidden;}
+#honer .honerInner ul li.ruan{width: 14%;}
+#honer .honerInner ul li.ying{width: 16%;}
+#honer .honerInner ul li.hua{width: 20%;}
+#honer .honerInner ul li.su{width: 13%;}
+#honer .honerInner ul li.shui{width: 10%;}
+#honer .honerInner ul li.you{width: 20%;}
+#honer .honerInner ul li img{ display: block; position: absolute; bottom:-12px; }
+#strongN{width: 100%; background: #d2a047; color: #fff;font-size: 18px;}
+#strongN .strongNInner{ margin: 0 auto; width: 1152px; position: relative; height: 650px; }
+#strongN .strongNInner h3{ margin-bottom: 20px;}
+#strongN .strongNInner .strongInL{padding-top: 45px; width: 660px;}
+#strongN .strongNInner .strTip{font-size: 36px; color: #000; margin-bottom: 30px;}
+#strongN .strongNInner .strTxtC{font-size: 24px; color: #714d29; margin-bottom: 60px;width: 590px;}
+#strongN .strongNInner .strTxtE{width: 480px;}
+#strongN .strongNInner .txtR{ text-align: right;width: 480px;}
+#strongN .strongNInner span{ position: absolute; z-index: 1; text-indent: -9999; }
+#strongN .strongNInner span.strong01{ right: 180px; top: 30px;}
+#strongN .strongNInner span.strong02{ right: 360px; top: 315px;}
+#strongN .strongNInner span.strong03{ right: 0px; top: 315px;}
+#honer{width: 100%; background: #c8c8cf; color: #fff;font-size: 22px;}
+#honer .honInner{ margin: 0 auto; width: 1152px;  padding-top: 40px; }
+#honer .honInner .honL{float: left; width: 50%;}
+#honer .honInner .honL ul{}
+#honer .honInner .honL ul li{ width: 30%; float: left; margin-bottom: 15px;text-align: right; }
+#honer .honInner .honL ul li.liTxt{width: 40%; text-align: left;}
+#honer .honInner .honL ul li.liTxt h3{ border-bottom: 1px solid #fff; width: 90%; font-size: 50px;}
+#honer .honInner .honL ul li.liTxtB{ width: 33.33%; }
+#honer .honInner .honR{float: right; width: 45%;}
+#honer .honInner .honR ul li{ width: 33%; float: left; margin-bottom: 15px;}
+#honer .honInner .honR h3{ font-size: 60px; color: #714d29; margin-bottom: 10px;}
+#footer{ width: 100%; background: #714d29;}
+#footer .footInner{ width: 840px; margin: 0 auto; color: #fff; font-size: 20px; text-align: center; padding-top: 20px;}
+#footer .footInner ul li{float: left; width: 20%; padding-bottom: 10px;}
+#footer .footInner ul li img{display: inline; text-align: center;vertical-align: middle; padding-bottom: 20px;}
+#footer .footInner ul li span{display: block; }
+#footer .footInner p{ border-top: 1px solid #fff; padding: 10px; font-size: 14px;}
+
+
+@media screen and (max-width: 1024px) {
+body{font-family: "微软雅黑"," Microsoft YaHei", arial,SimSun; font-size: 16px; color: #888; overflow-x: hidden;}
+	
+#header{width: 100%; height: auto; border-top: 3px solid #909398;}
+#header .heaerInner{width: 100%; margin: 0 auto;}
+#header .heaerInner .logo{ float: none; margin-right: 0px; margin-top:4px; vertical-align: middle;}
+#header .heaerInner .logo img{ width: 300px;}
+#header .heaerInner .nav{ float: none;}
+#header .heaerInner .nav li{ float: none; margin: 10px 0px 0;}
+#header .heaerInner .nav li a{ color: #888; display: block;}
+#header .heaerInner .nav li a.active,#header .heaerInner .nav li a:hover,#header .heaerInner .nav li a:active{color: #000; border-bottom: 4px solid #fcd54f;}
+#banner{width: 100%;}
+#banner .imgPc{ display: none;width: 100%;}
+#banner .imgM{ display: block; width: 100%;}
+#banner .imgM img{width: 100%;}
+/*indexbanner*/
+#indexbanner{ position: relative; z-index: 2; width: 100%; margin: 0 auto; overflow: hidden;}
+#indexbanner .spBox{ width: 6000px;}
+#indexbanner .spBox li{ float: left; position: relative; overflow: hidden;}
+#indexbanner .spBox li a{ display: block; width: 100%; overflow: hidden;}
+#indexbanner .spBox li a img{ display: block; width: 100%; height: auto;}
+#indexbanner .btmBtn{ position: absolute; z-index: 2;  bottom: 23px; left:0; width:100%; margin:0; text-align:center;}
+#indexbanner .btmBtn span{ display: inline-block; width:12px; height:12px; margin:0 8px; overflow:hidden; font-size:0; line-height:0; background:#959595;
+-webkit-border-radius:50%; -moz-border-radius:50%; -ms-border-radius:50%; -o-border-radius:50%; border-radius:50%; cursor: pointer; -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.3);-moz-box-shadow: 0 1px 1px rgba(0,0,0,0.3);box-shadow: 0 1px 1px rgba(0,0,0,0.3);}
+#indexbanner .btmBtn span.active{width:12px; background:#FFF; }
+#indexbanner .btmBtn span img{ display: inline-block; width: 100px; vertical-align: bottom;}
+#indexbanner .leftBtn{display: none; position: absolute; left: 15%; top: 50%; z-index: 2; width: 23px; margin-top: -10px;}
+#indexbanner .rightBtn{display: none; position: absolute; right: 15%; top: 50%; z-index: 2; width: 23px; margin-top: -10px;}
+#indexbanner .ctrBtns img{display: block; width: 100%;}
+
+#category{width: 100%; height: auto; background:#fbc523 url(../images/bg-cat.jpg) center no-repeat; color: #fff; font-size: 14px; overflow: auto;}
+#category .categoryInner{width: 100%; margin: 0 auto; padding: 8px 0;height: auto;}
+#category .categoryInner div{ float: none; height: 100%;}
+#category .categoryInner div  img{width: 100%;}
+#category .categoryInner div.categoryL{ background: #c87711; width: auto; overflow: hidden;}
+#category .categoryInner div.categoryM{ position: relative; width: auto;}
+#category .categoryInner div.categoryM .txtM{ position: absolute; top: 35px; left:125px; z-index: 1; color: #747474;}
+#category .categoryInner div.categoryM .txtM span{ text-align:center; font-size: 20px; color: #fb8720;}
+#category .categoryInner div.categoryR{ background: #d1515f; width: auto;}
+#category .categoryInner .txtL{ padding: 10px 30px 0;}
+#category .categoryInner .txtR{ padding: 12px 0 0 30px;}
+#category .categoryInner .txtR span{ font-size: 25px;}
+.font58{font-size: 48px;}
+.font24{font-size:20px;}
+#classList{width: 100%; height: auto; background:#fff url(../images/bg-class.jpg) center no-repeat; color: #888; font-size: 14px; overflow: hidden;}
+#classList .classListInner{ width: 100%; margin: 0 auto; height: 100%; padding-top: 20px;}
+#classList .classListInner .eleQin,#classList .classListInner .eleQi,#classList .classListInner .eleShu,#classList .classListInner .eleHua{float:none;width:auto; height: auto; margin-bottom: 10px;}
+#classList .classListInner .eleQin h3{ color: #4b73c3; font-size: 24px;}
+#classList .classListInner .eleQi h3{color: #0ec228; font-size: 24px;}
+#classList .classListInner .eleShu h3{color: #e97100; font-size: 24px;}
+#classList .classListInner .eleHua h3{color: #e0495c; font-size: 24px;}
+#classList .classListInner .eleQin { margin-right:auto; }
+#classList .classListInner .eleQi {}
+#classList .classListInner .eleShu {margin-right:auto; }
+#classList .classListInner .eleHua {}
+#classList .imgL,#classList .eleL{float: none;}
+#classList .eleR,#classList .imgR{ float: none;}
+#classList .imgL,#classList .imgR{width: 100%;}
+#classList img{ width: 100%;}
+#classList .eleR,#classList .eleL{width: 90%;  margin: 0 auto;}
+#honer{width: 100%;background: #fbca23;}
+#honer .honerInner{width: auto; margin: 0 auto;}
+#honer .honerInner .hInTop{ padding-top: 5px; margin-bottom: 15px;}
+#honer .honerInner .hInTop .hInTopL{ float: none; width: 95%; margin: 0 auto;}
+#honer .honerInner .hInTop h3{color: #714d29; text-align: center; font-size: 28px; margin-bottom: 8px;}
+#honer .honerInner .hInTop p{ color: #FFFFFF; font-size: 18px; line-height: 25px;}
+#honer .honerInner .hInTop .hInTopR{ float: none; width: 80%; margin: 0 auto}
+#honer .honerInner .hInTop .hInTopR img{ width: 100%;}
+#honer .honerInner ul{ font-size: 0;}
+#honer .honerInner ul li{ font-size: 18px; position: relative; float: none;width:50%; display: inline-block; height: auto; overflow: hidden; text-align: center; margin-bottom: 15px; }
+#honer .honerInner ul li.ruan{width:50%}
+#honer .honerInner ul li.ying{width:50%}
+#honer .honerInner ul li.hua{width:50%}
+#honer .honerInner ul li.su{width: 50%;}
+#honer .honerInner ul li.shui{width:50%;}
+#honer .honerInner ul li.you{width: 50%;}
+#honer .honerInner ul li img{ display: block; position: static; bottom:0px; width: 100%; }
+#strongN{width: 100%; background: #d2a047; color: #fff;font-size: 18px;}
+#strongN .strongNInner{ margin: 0 auto; width: auto; position: relative; height: auto; }
+#strongN .strongNInner h3{ margin-bottom: 20px;}
+#strongN .strongNInner .strongInL{padding-top: 15px; width: 90%; margin: 0 auto;}
+#strongN .strongNInner .strTip{font-size: 26px; color: #000; margin-bottom: 10px;}
+#strongN .strongNInner .strTxtC{font-size: 16px; color: #714d29; margin-bottom: 10px;width: auto;}
+#strongN .strongNInner .strTxtE{width: auto;}
+#strongN .strongNInner .txtR{ text-align: right;width: auto;}
+#strongN .strongNInner span{ text-align: center; width: 100%; margin: 0 auto; display: inline-block; position: static; z-index: 1; text-indent: -9999;  margin-bottom: 10px;}
+#strongN .strongNInner span img{ width:80%}
+#strongN .strongNInner span.strong01{ right: 180px; top: 30px;}
+#strongN .strongNInner span.strong02{ right: 360px; top: 315px;}
+#strongN .strongNInner span.strong03{ right: 0px; top: 315px;}
+#honer{width: 100%; background: #c8c8cf; color: #fff;font-size: 22px;}
+#honer .honInner{ margin: 0 auto; width: auto;  padding-top: 10px; }
+#honer .honInner .honL{float: none; width: 100%; margin-bottom: 20px;}
+#honer .honInner .honL ul{ width: 100%; font-size: 0;}
+#honer .honInner .honL ul li{ width: 50%; display: inline-block; float: none; margin-bottom: 15px;text-align: right; }
+#honer .honInner .honL ul li.liTxt{width: 100%; text-align: center;}
+#honer .honInner .honL ul li.liTxt h3{ border-bottom: 1px solid #fff; width: 90%; font-size: 30px;}
+#honer .honInner .honL ul li.liTxtB{ width: 50%; }
+#honer .honInner .honR{float: none; width: 100%; font-size: 0; margin: 0 auto;}
+#honer .honInner .honR ul li{ width: 50%; display: inline-block; float: none; margin-bottom: 15px; text-align: center;}
+#honer .honInner .honR h3{ font-size: 30px; color: #714d29; margin-bottom: 10px; text-align: center;}
+#footer{ width: 100%; background: #714d29;}
+#footer .footInner{ width: 100%; margin: 0 auto; color: #fff; font-size: 15px; text-align: center; padding-top: 10px;}
+#footer .footInner ul li{float: left; width: 20%; padding-bottom: 10px;}
+#footer .footInner ul li img{display: inline; width: 40%; text-align: center;vertical-align: middle; padding-bottom: 20px;}
+#footer .footInner ul li span{display: block; }
+#footer .footInner p{ border-top: 1px solid #fff; padding: 10px; font-size: 14px;}
+	
+	
+}

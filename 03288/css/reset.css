@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, abbr, address, cite, code, del, dfn, em, img, sub, sup, var, i, dl, dd, dt, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video { padding: 0; margin: 0; border: 0; outline: 0; background: transparent;}
+
+body{ font-weight:normal; font-family:Microsoft YaHei,'微软雅黑',Arial,"宋体";}
+
+textarea { margin:0;}
+input { border:medium none; padding:0; margin:0;}
+
+/*html5 for html5.js*/
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block;} 
+
+ol, ul, li { list-style: none;}
+h1,h2,h3,h4,h5,h6 { font-weight:normal;
+/*-webkit-text-shadow:0 1px 1px rgba(0,0,0,0.3); -moz-text-shadow:0 1px 1px rgba(0,0,0,0.3); -ms-text-shadow:0 1px 1px rgba(0,0,0,0.3); -o-text-shadow:0 1px 1px rgba(0,0,0,0.3); text-shadow:0 1px 1px rgba(0,0,0,0.3);*/
+}
+input, select { vertical-align:middle; border:medium none; outline:none;}
+table { border-collapse:collapse; border-spacing:0; /*table-layout:fixed;*/}
+
+a { text-decoration:none; padding:0; margin:0;}
+a{ blr:expression(this.onFocus=this.blur());  /* IE Opera */ outline:none;   /* FF Opera */ }
+a:focus{ -moz-outline-style: none; }  /* FF */
+a:hover{ color:#bf0008;}
+a img { border:medium none;}
+
+img{ border: none; vertical-align: middle;}
+/*面包屑*/
+.news_nav{ font-weight:bold; font-size: 14px;}
+.news_nav a:hover{ color: #bf0008; text-decoration: underline;}
+
+/*清除浮动*/
+.clear { clear: both; width: 0; height: 0; padding:0; margin:0; overflow: 0; font-size: 0; line-height: 0;}
+.clearfix { zoom:1; _height:1px;}
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden;}
+
+.clearBox { clear:both; display:block; width:100%; padding:15px 0; font-size:16px; line-height:1.5em; text-align:center; color:#666; font-weight:bold;}
+.clearBox span { color:#ccc;}
+.orange_color { color:orange;}
+
+/*清楚文字内容
+兼容：√ ie6.0 、 7.0 、8.0、firefox 3.010 
+*/
+.txtHide { line-height:0; font-size:0; overflow:hidden;}
+
+/*用于seo不显示的内容*/
+.seo { position: absolute; visibility: hidden; top: 0; left: 0; width: 0; height: 0; overflow: hidden;}
+.seo, .hideImg { position: absolute; visibility: hidden; top: 0; left: 0; width: 0; height: 0; overflow: hidden;}
+.hideImg { overflow: hidden;}
+.hideImg img { width: 0; height: 0; overflow: hidden;}
+
+/*左浮动和右浮动*/
+.float_l { float: left; }
+.float_r { float: right;}
+
+.ts3 { -webkit-transition:all ease 0.3s;  -moz-transition:all ease 0.3s;  -ms-transition:all ease 0.3s;  -o-transition:all ease 0.3s;  transition:all ease 0.3s;}
+.ts5 { -webkit-transition:all ease 0.5s;  -moz-transition:all ease 0.5s;  -ms-transition:all ease 0.5s;  -o-transition:all ease 0.5s;  transition:all ease 0.5s;}
+.ts8 { -webkit-transition:all ease 0.8s;  -moz-transition:all ease 0.8s;  -ms-transition:all ease 0.8s;  -o-transition:all ease 0.8s;  transition:all ease 0.8s;}
+
+.ts3delay3 { -webkit-transition:all 0.3s ease 0.3s;  -moz-transition:all 0.3s ease 0.3s;  -ms-transition:all 0.3s ease 0.3s;  -o-transition:all 0.3s ease 0.3s;  transition:all 0.3s ease 0.3s;}
+.ts3delay6 { -webkit-transition:all 0.6s ease 0.3s;  -moz-transition:all 0.6s ease 0.3s;  -ms-transition:all 0.6s ease 0.3s;  -o-transition:all 0.6s ease 0.3s;  transition:all 0.6s ease 0.3s;}
+
+
+#shareListPic { position:absolute; left:0; top:0; z-index:-9999; width:0; height:0; overflow:hidden; font-size:0; line-height:0; display:none;}
